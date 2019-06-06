@@ -1,0 +1,153 @@
+@media screen and (max-width: 768px) {
+	width:100%;
+}
+
+#gallery {
+	display: grid;
+	grid-template-columns: repeat(6,1fr);
+	grid-template-rows: repeat(12,1fr);
+	grid-gap: 15px;
+	justify-content: center;
+	
+}
+
+img	{
+	width: 20px;
+}
+
+.button {
+	
+	background-color: orange;
+	color: black; 
+	text-decoration: none;
+	padding: 10px;
+	margin-top: 3%;
+	border-radius: 5px; 
+}
+
+.item {
+	height:25vh;
+}
+
+#bigtext { 
+	margin-left: -50px;
+	background-color:orange;
+	padding:10px;
+	margin-top: 50px;
+	font-family:
+}
+
+p	{
+	font-family: "Open Sans";
+}
+
+#liltext {
+	text-align: left;
+}
+
+#box-2 {
+	background: url(https://d17fnq9dkz9hgj.cloudfront.net/uploads/2012/11/152964589-welcome-home-new-cat-632x475.jpg);
+	background-size: cover;
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+#box-3 {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/6/66/An_up-close_picture_of_a_curious_male_domestic_shorthair_tabby_cat.jpg);
+	background-size: cover;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 6;
+	margin-left:50px;
+}
+
+#box-4 {
+	background: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MTkvb3JpZ2luYWwvY3V0ZS1raXR0ZW4uanBn);
+	background-size: cover;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin-left:50px;
+}
+
+#box-5 {
+	background: url(https://images.unsplash.com/photo-1518791841217-8f162f1e1131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80);
+	background-size: cover;
+	grid-row-start: 5;
+	grid-row-end: 4;
+	grid-column-start: 1;
+	grid-column-end: 6;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+#box-6 {
+	background: url(https://news.nationalgeographic.com/content/dam/news/2018/05/17/you-can-train-your-cat/02-cat-training-NationalGeographic_1484324.ngsversion.1526587209178.adapt.1900.1.jpg);
+	background-size: cover;
+	grid-row-start: 5;
+	grid-row-end: 9;
+	grid-column-start: 1;
+	grid-column-end: 4;
+	margin-left:50px;
+}
+
+#box-7 {
+	background: url(https://media.mnn.com/assets/images/2018/07/cat_eating_fancy_ice_cream.jpg.1080x0_q100_crop-scale.jpg);
+	background-size: cover;
+	grid-row-start: 5;
+	grid-row-end: 9;
+	grid-column-start: 4;
+	grid-column-end: 6;
+}
+
+#box-8 {
+	background: url(https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzEwNC84MzAvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzExMTA1NzIxNTkuanBn);
+	background-size: cover;
+	grid-row-start: 6;
+	grid-row-end: 9;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	margin-left:50px;
+}
+
+#box-9 {
+	background: url(https://i.ytimg.com/vi/jpsGLsaZKS0/maxresdefault.jpg);
+	background-size: cover;
+	grid-row-start: 6;
+	grid-row-end: 9;
+	grid-column-start: 3;
+	grid-column-end: 6;
+}
+
+#box-10 {
+	background-size: cover;
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 3;
+	margin-left:50px;
+}
+
+#box-11 {
+
+	background-size: cover;
+	grid-row-start: 3;
+	grid-row-end: 4;
+	grid-column-start: 4;
+	grid-column-end: 6;
+	margin-left:50px;
+
+}
+
+#box-12 {
+	background-size: cover;
+	grid-row-start: 1;
+	grid-row-end: 3;
+	grid-column-start: 4;
+	grid-column-end: 6;
+
+}
